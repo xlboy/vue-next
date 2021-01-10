@@ -46,8 +46,18 @@ class ComputedRefImpl<T> {
 
     this[ReactiveFlags.IS_READONLY] = isReadonly
   }
+  // computed/ref的.value实在让我受不了…反射一波自用
+  get $() {
+    return this.value
+  }
+
+  set $(newValue: T) {
+    this.value = newValue
+  }
 
   get value() {
+    // 如若是第一次get，则开始收集需要影响的依赖，并且将分辨依赖收集状态的_dirty设为false
+    // 但_dirty可被effect内的属性scheduler改变，此处尚未看
     if (this._dirty) {
       this._value = this.effect()
       this._dirty = false

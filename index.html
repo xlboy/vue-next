@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         {{ state.tets }}
-        <button @click="click" v-aaa="">123</button>
+        <button @click="click" >123</button>
     </div>
     <script>
         const {
@@ -37,7 +37,7 @@
                     arr2: ref([3, 4])
                 })
                 const test = computed(() => { return 1 })
-                console.log('test', test)
+                
 
                 function click() {
                     state.message += 'wdnmd,xbzzo'
@@ -50,9 +50,6 @@
             }
         }
         const App = createApp(MyComponent).mount('#app')
-        App.directive('aaa', () => {
-            console.log('就这')
-        });
     </script>
 </body>
 

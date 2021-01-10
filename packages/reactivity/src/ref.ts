@@ -59,7 +59,15 @@ class RefImpl<T> {
   constructor(private _rawValue: T, public readonly _shallow = false) {
     this._value = _shallow ? _rawValue : convert(_rawValue)
   }
+  // computed/ref的.value实在让我受不了…反射一波自用
+  get $() {
+    return this.value
+  }
 
+  set $(newValue: T) {
+    this.value = newValue
+  }
+  
   get value() {
     track(toRaw(this), TrackOpTypes.GET, 'value')
     return this._value
