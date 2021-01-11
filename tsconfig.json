@@ -18,7 +18,9 @@
     "types": ["jest", "puppeteer", "node"],
     "rootDir": ".",
     "paths": {
+      "@xlboy-v3/*": ["packages/*/src"],
       "@vue/*": ["packages/*/src"],
+      "@xlboy-vue3/*": ["packages/*/src"],
       "vue": ["packages/vue/src"]
     }
   },

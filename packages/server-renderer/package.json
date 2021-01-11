@@ -1,7 +1,7 @@
 {
-  "name": "@vue/server-renderer",
-  "version": "3.0.5",
-  "description": "@vue/server-renderer",
+  "name": "@xlboy-v3/server-renderer",
+  "version": "0.0.1",
+  "description": "@xlboy-v3/server-renderer",
   "main": "index.js",
   "types": "dist/server-renderer.d.ts",
   "files": [
@@ -31,7 +31,7 @@
     "vue": "3.0.5"
   },
   "dependencies": {
-    "@vue/shared": "3.0.5",
-    "@vue/compiler-ssr": "3.0.5"
+    "@xlboy-v3/shared": "0.0.1",
+    "@xlboy-v3/compiler-ssr": "0.0.1"
   }
 }

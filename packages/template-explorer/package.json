@@ -1,6 +1,6 @@
 {
-  "name": "@vue/template-explorer",
-  "version": "3.0.5",
+  "name": "@xlboy-v3/template-explorer",
+  "version": "0.0.1",
   "private": true,
   "buildOptions": {
     "formats": [

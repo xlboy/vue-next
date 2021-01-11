@@ -1,6 +1,6 @@
 {
-  "name": "@vue/shared",
-  "version": "3.0.5",
+  "name": "@xlboy-v3/shared",
+  "version": "0.0.1",
   "description": "internal utils shared across @vue packages",
   "main": "index.js",
   "module": "dist/shared.esm-bundler.js",

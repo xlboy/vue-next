@@ -57,7 +57,7 @@ describe('ssr: element', () => {
       expect(compile(`<textarea v-bind="obj">fallback</textarea>`).code)
         .toMatchInlineSnapshot(`
         "const { mergeProps: _mergeProps } = require(\\"vue\\")
-        const { ssrRenderAttrs: _ssrRenderAttrs, ssrInterpolate: _ssrInterpolate } = require(\\"@vue/server-renderer\\")
+        const { ssrRenderAttrs: _ssrRenderAttrs, ssrInterpolate: _ssrInterpolate } = require(\\"@xlboy-v3/server-renderer\\")
 
         return function ssrRender(_ctx, _push, _parent, _attrs) {
           let _temp0
@@ -78,7 +78,7 @@ describe('ssr: element', () => {
         }).code
       ).toMatchInlineSnapshot(`
         "const { mergeProps: _mergeProps } = require(\\"vue\\")
-        const { ssrRenderAttrs: _ssrRenderAttrs } = require(\\"@vue/server-renderer\\")
+        const { ssrRenderAttrs: _ssrRenderAttrs } = require(\\"@xlboy-v3/server-renderer\\")
 
         return function ssrRender(_ctx, _push, _parent, _attrs) {
           _push(\`<my-foo\${_ssrRenderAttrs(_mergeProps(_ctx.obj, _attrs), \\"my-foo\\")}></my-foo>\`)

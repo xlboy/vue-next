@@ -417,6 +417,7 @@ function baseCreateRenderer(
 ): HydrationRenderer
 
 // implementation
+// 开始创建。。。
 function baseCreateRenderer(
   options: RendererOptions,
   createHydrationFns?: typeof createHydrationFunctions

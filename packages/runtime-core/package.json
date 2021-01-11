@@ -1,7 +1,7 @@
 {
-  "name": "@vue/runtime-core",
-  "version": "3.0.5",
-  "description": "@vue/runtime-core",
+  "name": "@xlboy-v3/runtime-core",
+  "version": "0.0.1",
+  "description": "@xlboy-v3/runtime-core",
   "main": "index.js",
   "module": "dist/runtime-core.esm-bundler.js",
   "types": "dist/runtime-core.d.ts",
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/runtime-core#readme",
   "dependencies": {
-    "@vue/shared": "3.0.5",
-    "@vue/reactivity": "3.0.5"
+    "@xlboy-v3/shared": "0.0.1",
+    "@xlboy-v3/reactivity": "0.0.1"
   }
 }

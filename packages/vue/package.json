@@ -37,9 +37,9 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/vue#readme",
   "dependencies": {
-    "@vue/shared": "3.0.5",
-    "@vue/compiler-dom": "3.0.5",
-    "@vue/runtime-dom": "3.0.5"
+    "@xlboy-v3/shared": "0.0.1",
+    "@xlboy-v3/compiler-dom": "0.0.1",
+    "@xlboy-v3/runtime-dom": "0.0.1"
   },
   "devDependencies": {
     "lodash": "^4.17.15",

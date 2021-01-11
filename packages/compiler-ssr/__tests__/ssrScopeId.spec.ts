@@ -11,7 +11,7 @@ describe('ssr: scopeId', () => {
       }).code
     ).toMatchInlineSnapshot(`
       "import { withScopeId as _withScopeId } from \\"vue\\"
-      import { ssrRenderAttrs as _ssrRenderAttrs } from \\"@vue/server-renderer\\"
+      import { ssrRenderAttrs as _ssrRenderAttrs } from \\"@xlboy-v3/server-renderer\\"
       const _withId = /*#__PURE__*/_withScopeId(\\"data-v-xxxxxxx\\")
 
       export const ssrRender = /*#__PURE__*/_withId((_ctx, _push, _parent, _attrs) => {
@@ -29,7 +29,7 @@ describe('ssr: scopeId', () => {
       }).code
     ).toMatchInlineSnapshot(`
       "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, withScopeId as _withScopeId } from \\"vue\\"
-      import { ssrRenderComponent as _ssrRenderComponent } from \\"@vue/server-renderer\\"
+      import { ssrRenderComponent as _ssrRenderComponent } from \\"@xlboy-v3/server-renderer\\"
       const _withId = /*#__PURE__*/_withScopeId(\\"data-v-xxxxxxx\\")
 
       export const ssrRender = /*#__PURE__*/_withId((_ctx, _push, _parent, _attrs) => {
@@ -59,7 +59,7 @@ describe('ssr: scopeId', () => {
       }).code
     ).toMatchInlineSnapshot(`
       "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, withScopeId as _withScopeId } from \\"vue\\"
-      import { ssrRenderComponent as _ssrRenderComponent } from \\"@vue/server-renderer\\"
+      import { ssrRenderComponent as _ssrRenderComponent } from \\"@xlboy-v3/server-renderer\\"
       const _withId = /*#__PURE__*/_withScopeId(\\"data-v-xxxxxxx\\")
 
       export const ssrRender = /*#__PURE__*/_withId((_ctx, _push, _parent, _attrs) => {
@@ -89,7 +89,7 @@ describe('ssr: scopeId', () => {
       }).code
     ).toMatchInlineSnapshot(`
       "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, withScopeId as _withScopeId } from \\"vue\\"
-      import { ssrRenderComponent as _ssrRenderComponent } from \\"@vue/server-renderer\\"
+      import { ssrRenderComponent as _ssrRenderComponent } from \\"@xlboy-v3/server-renderer\\"
       const _withId = /*#__PURE__*/_withScopeId(\\"data-v-xxxxxxx\\")
 
       export const ssrRender = /*#__PURE__*/_withId((_ctx, _push, _parent, _attrs) => {

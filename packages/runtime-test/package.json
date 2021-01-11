@@ -1,7 +1,7 @@
 {
-  "name": "@vue/runtime-test",
-  "version": "3.0.5",
-  "description": "@vue/runtime-test",
+  "name": "@xlboy-v3/runtime-test",
+  "version": "0.0.1",
+  "description": "@xlboy-v3/runtime-test",
   "private": true,
   "main": "index.js",
   "module": "dist/runtime-test.esm-bundler.js",
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/runtime-test#readme",
   "dependencies": {
-    "@vue/shared": "3.0.5",
-    "@vue/runtime-core": "3.0.5"
+    "@xlboy-v3/shared": "0.0.1",
+    "@xlboy-v3/runtime-core": "0.0.1"
   }
 }

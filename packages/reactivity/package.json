@@ -1,7 +1,7 @@
 {
-  "name": "@vue/reactivity",
-  "version": "3.0.5",
-  "description": "@vue/reactivity",
+  "name": "@xlboy-v3/reactivity",
+  "version": "0.0.1",
+  "description": "@xlboy-v3/reactivity",
   "main": "index.js",
   "module": "dist/reactivity.esm-bundler.js",
   "types": "dist/reactivity.d.ts",
@@ -36,6 +36,6 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/reactivity#readme",
   "dependencies": {
-    "@vue/shared": "3.0.5"
+    "@xlboy-v3/shared": "0.0.1"
   }
 }

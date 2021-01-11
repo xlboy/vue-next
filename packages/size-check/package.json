@@ -1,6 +1,6 @@
 {
-  "name": "@vue/size-check",
-  "version": "3.0.5",
+  "name": "@xlboy-v3/size-check",
+  "version": "0.0.1",
   "private": true,
   "buildOptions": {
     "name": "Vue",
