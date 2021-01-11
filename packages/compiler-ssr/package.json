@@ -1,6 +1,6 @@
 {
   "name": "@xlboy-v3/compiler-ssr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@xlboy-v3/compiler-ssr",
   "main": "dist/compiler-ssr.cjs.js",
   "types": "dist/compiler-ssr.d.ts",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/compiler-ssr#readme",
   "dependencies": {
-    "@xlboy-v3/shared": "0.0.1",
-    "@xlboy-v3/compiler-dom": "0.0.1"
+    "@xlboy-v3/shared": "0.0.2",
+    "@xlboy-v3/compiler-dom": "0.0.2"
   }
 }

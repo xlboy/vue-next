@@ -1,6 +1,6 @@
 {
   "name": "@xlboy-v3/compiler-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@xlboy-v3/compiler-core",
   "main": "index.js",
   "module": "dist/compiler-core.esm-bundler.js",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/compiler-core#readme",
   "dependencies": {
-    "@xlboy-v3/shared": "0.0.1",
+    "@xlboy-v3/shared": "0.0.2",
     "@babel/parser": "^7.12.0",
     "@babel/types": "^7.12.0",
     "estree-walker": "^2.0.1",

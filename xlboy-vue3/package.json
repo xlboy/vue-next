@@ -1,6 +1,6 @@
 {
   "name": "xlboy-vue3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "基于V3上进行更改，供自项目玩乐使用",
   "main": "index.js",
   "module": "dist/vue.runtime.esm-bundler.js",
@@ -37,9 +37,9 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/vue#readme",
   "dependencies": {
-    "@xlboy-v3/shared": "0.0.1",
-    "@xlboy-v3/compiler-dom": "0.0.1",
-    "@xlboy-v3/runtime-dom": "0.0.1"
+    "@xlboy-v3/shared": "0.0.2",
+    "@xlboy-v3/compiler-dom": "0.0.2",
+    "@xlboy-v3/runtime-dom": "0.0.2"
   },
   "devDependencies": {
     "lodash": "^4.17.15",

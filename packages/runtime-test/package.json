@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/vuejs/vue-next/tree/master/packages/runtime-test#readme",
   "dependencies": {
-    "@xlboy-v3/shared": "0.0.1",
-    "@xlboy-v3/runtime-core": "0.0.1"
+    "@xlboy-v3/shared": "0.0.2",
+    "@xlboy-v3/runtime-core": "0.0.2"
   }
 }
