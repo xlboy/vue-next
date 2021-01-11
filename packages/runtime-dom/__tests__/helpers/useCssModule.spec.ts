@@ -1,4 +1,4 @@
-import { render, h, nodeOps } from '@vue/runtime-test'
+import { render, h, nodeOps } from '@xlboy-v3/runtime-test'
 import { useCssModule } from '../../src/helpers/useCssModule'
 
 describe('useCssModule', () => {

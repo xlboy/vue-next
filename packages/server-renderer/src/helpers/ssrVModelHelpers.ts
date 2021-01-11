@@ -1,4 +1,4 @@
-import { looseEqual, looseIndexOf } from '@vue/shared'
+import { looseEqual, looseIndexOf } from '@xlboy-v3/shared'
 import { ssrRenderAttr } from './ssrRenderAttrs'
 
 export const ssrLooseEqual = looseEqual as (a: unknown, b: unknown) => boolean

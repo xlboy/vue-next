@@ -1,4 +1,4 @@
-import { render, h, nodeOps, reactive, isReactive } from '@vue/runtime-test'
+import { render, h, nodeOps, reactive, isReactive } from '@xlboy-v3/runtime-test'
 
 describe('misc', () => {
   test('component public instance should not be observable', () => {

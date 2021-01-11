@@ -1,4 +1,4 @@
-import { registerRuntimeHelpers } from '@vue/compiler-dom'
+import { registerRuntimeHelpers } from '@xlboy-v3/compiler-dom'
 
 export const SSR_INTERPOLATE = Symbol(`ssrInterpolate`)
 export const SSR_RENDER_VNODE = Symbol(`ssrRenderVNode`)

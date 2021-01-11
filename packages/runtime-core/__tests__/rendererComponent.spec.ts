@@ -11,7 +11,7 @@ import {
   Ref,
   watch,
   SetupContext
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('renderer: component', () => {
   test('should update parent(hoc) component host el when child component self update', async () => {

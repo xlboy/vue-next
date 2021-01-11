@@ -9,7 +9,7 @@ import {
   nextTick,
   markRaw,
   defineComponent
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { createVNode, Fragment } from '../../src/vnode'
 import { compile, render as domRender } from 'vue'
 

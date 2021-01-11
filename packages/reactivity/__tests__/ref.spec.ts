@@ -8,7 +8,7 @@ import {
   Ref,
   isReactive
 } from '../src/index'
-import { computed } from '@vue/runtime-dom'
+import { computed } from '@xlboy-v3/runtime-dom'
 import { shallowRef, unref, customRef, triggerRef } from '../src/ref'
 
 describe('reactivity/ref', () => {

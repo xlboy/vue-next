@@ -18,7 +18,7 @@ import {
 import { ErrorCodes } from '../../src/errors'
 import { CompilerOptions, generate } from '../../src'
 import { FRAGMENT, RENDER_LIST, RENDER_SLOT } from '../../src/runtimeHelpers'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { createObjectMatcher, genFlagText } from '../testUtils'
 
 function parseWithForTransform(

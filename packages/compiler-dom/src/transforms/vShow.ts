@@ -1,4 +1,4 @@
-import { DirectiveTransform } from '@vue/compiler-core'
+import { DirectiveTransform } from '@xlboy-v3/compiler-core'
 import { createDOMCompilerError, DOMErrorCodes } from '../errors'
 import { V_SHOW } from '../runtimeHelpers'
 

@@ -9,7 +9,7 @@ import {
   isFunction,
   isOn,
   toNumber
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import {
   ComponentInternalInstance,
   ComponentOptions,

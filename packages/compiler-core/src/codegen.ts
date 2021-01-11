@@ -33,7 +33,7 @@ import {
   isSimpleIdentifier,
   toValidAssetId
 } from './utils'
-import { isString, isArray, isSymbol } from '@vue/shared'
+import { isString, isArray, isSymbol } from '@xlboy-v3/shared'
 import {
   helperNameMap,
   TO_DISPLAY_STRING,

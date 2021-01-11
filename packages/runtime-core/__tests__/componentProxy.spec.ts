@@ -5,7 +5,7 @@ import {
   nodeOps,
   createApp,
   shallowReadonly
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { ComponentInternalInstance } from '../src/component'
 
 describe('component: proxy', () => {

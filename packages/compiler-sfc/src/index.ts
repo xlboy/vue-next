@@ -4,7 +4,7 @@ export { compileTemplate } from './compileTemplate'
 export { compileStyle, compileStyleAsync } from './compileStyle'
 export { compileScript } from './compileScript'
 export { rewriteDefault } from './rewriteDefault'
-export { generateCodeFrame } from '@vue/compiler-core'
+export { generateCodeFrame } from '@xlboy-v3/compiler-core'
 
 // Types
 export {
@@ -30,4 +30,4 @@ export {
   CompilerOptions,
   CompilerError,
   BindingMetadata
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'

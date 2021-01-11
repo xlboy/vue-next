@@ -21,7 +21,7 @@ import {
 } from '../../src/transforms/vSlot'
 import { CREATE_SLOTS, RENDER_LIST } from '../../src/runtimeHelpers'
 import { createObjectMatcher, genFlagText } from '../testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { transformFor } from '../../src/transforms/vFor'
 import { transformIf } from '../../src/transforms/vIf'
 

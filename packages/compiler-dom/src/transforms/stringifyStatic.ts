@@ -15,7 +15,7 @@ import {
   PlainElementNode,
   JSChildNode,
   TextCallNode
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import {
   isVoidTag,
   isString,
@@ -27,7 +27,7 @@ import {
   normalizeStyle,
   stringifyStyle,
   makeMap
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 
 export const enum StringifyThresholds {
   ELEMENT_WITH_BINDING_COUNT = 5,

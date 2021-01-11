@@ -6,7 +6,7 @@ import {
   ssrUtils,
   VNode
 } from 'vue'
-import { isPromise, isString } from '@vue/shared'
+import { isPromise, isString } from '@xlboy-v3/shared'
 import { SSRContext, renderComponentVNode, SSRBuffer } from './render'
 
 const { isVNode } = ssrUtils

@@ -6,7 +6,7 @@ import {
   createConditionalExpression,
   createObjectExpression,
   createDOMCompilerError
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 
 export const ssrTransformShow: DirectiveTransform = (dir, node, context) => {
   if (!dir.exp) {

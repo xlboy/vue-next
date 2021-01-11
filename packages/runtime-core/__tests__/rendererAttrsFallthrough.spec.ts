@@ -12,8 +12,8 @@ import {
   FunctionalComponent,
   createCommentVNode,
   Fragment
-} from '@vue/runtime-dom'
-import { PatchFlags } from '@vue/shared/src'
+} from '@xlboy-v3/runtime-dom'
+import { PatchFlags } from '@xlboy-v3/shared/src'
 
 describe('attribute fallthrough', () => {
   it('should allow attrs to fallthrough', async () => {

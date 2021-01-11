@@ -1,4 +1,4 @@
-import { hyphenate } from '@vue/shared'
+import { hyphenate } from '@xlboy-v3/shared'
 
 const systemModifiers = ['ctrl', 'shift', 'alt', 'meta']
 

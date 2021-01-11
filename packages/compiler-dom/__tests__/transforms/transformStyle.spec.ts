@@ -5,7 +5,7 @@ import {
   ElementNode,
   NodeTypes,
   VNodeCall
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { transformBind } from '../../../compiler-core/src/transforms/vBind'
 import { transformElement } from '../../../compiler-core/src/transforms/transformElement'
 import { transformStyle } from '../../src/transforms/transformStyle'

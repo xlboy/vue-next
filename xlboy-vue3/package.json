@@ -1,7 +1,7 @@
 {
   "name": "xlboy-vue3",
-  "version": "3.0.5",
-  "description": "基于Vue3上进行更改，供自项目玩乐使用",
+  "version": "0.0.3",
+  "description": "基于V3上进行更改，供自项目玩乐使用",
   "main": "index.js",
   "module": "dist/vue.runtime.esm-bundler.js",
   "types": "dist/vue.d.ts",

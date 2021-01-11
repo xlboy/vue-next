@@ -19,7 +19,7 @@ import { transformBind } from '../../src/transforms/vBind'
 import { transformOn } from '../../src/transforms/vOn'
 import { createObjectMatcher, genFlagText } from '../testUtils'
 import { transformText } from '../../src/transforms/transformText'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 
 function transformWithHoist(template: string, options: CompilerOptions = {}) {
   const ast = parse(template)

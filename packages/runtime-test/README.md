@@ -5,7 +5,7 @@ This is for Vue's own internal tests only - it ensures logic tested using this p
 It can also be used as a reference for implementing a custom renderer.
 
 ``` js
-import { h, render, nodeOps, dumpOps } from '@vue/runtime-test'
+import { h, render, nodeOps, dumpOps } from '@xlboy-v3/runtime-test'
 
 const App = {
   data () {

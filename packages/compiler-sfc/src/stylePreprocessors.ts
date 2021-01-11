@@ -1,7 +1,7 @@
 import merge from 'merge-source-map'
 import { RawSourceMap } from 'source-map'
 import { SFCStyleCompileOptions } from './compileStyle'
-import { isFunction } from '@vue/shared'
+import { isFunction } from '@xlboy-v3/shared'
 
 export type StylePreprocessor = (
   source: string,

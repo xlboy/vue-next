@@ -5,7 +5,7 @@ import {
   findProp,
   NodeTypes,
   hasDynamicKeyVBind
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { createDOMCompilerError, DOMErrorCodes } from '../errors'
 import {
   V_MODEL_CHECKBOX,

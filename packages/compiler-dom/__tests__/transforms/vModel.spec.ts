@@ -3,7 +3,7 @@ import {
   transform,
   CompilerOptions,
   generate
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { transformModel } from '../../src/transforms/vModel'
 import { transformElement } from '../../../compiler-core/src/transforms/transformElement'
 import { DOMErrorCodes } from '../../src/errors'

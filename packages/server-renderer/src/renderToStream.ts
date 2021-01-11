@@ -6,7 +6,7 @@ import {
   createApp,
   ssrContextKey
 } from 'vue'
-import { isString, isPromise } from '@vue/shared'
+import { isString, isPromise } from '@xlboy-v3/shared'
 import { renderComponentVNode, SSRBuffer, SSRContext } from './render'
 import { Readable } from 'stream'
 

@@ -3,7 +3,7 @@ import {
   shallowReactive,
   trigger,
   TriggerOpTypes
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import {
   EMPTY_OBJ,
   camelize,
@@ -21,7 +21,7 @@ import {
   EMPTY_ARR,
   def,
   extend
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { warn } from './warning'
 import {
   Data,

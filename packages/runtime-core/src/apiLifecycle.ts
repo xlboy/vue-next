@@ -8,8 +8,8 @@ import {
 import { ComponentPublicInstance } from './componentPublicInstance'
 import { callWithAsyncErrorHandling, ErrorTypeStrings } from './errorHandling'
 import { warn } from './warning'
-import { toHandlerKey } from '@vue/shared'
-import { DebuggerEvent, pauseTracking, resetTracking } from '@vue/reactivity'
+import { toHandlerKey } from '@xlboy-v3/shared'
+import { DebuggerEvent, pauseTracking, resetTracking } from '@xlboy-v3/reactivity'
 
 export { onActivated, onDeactivated } from './components/KeepAlive'
 

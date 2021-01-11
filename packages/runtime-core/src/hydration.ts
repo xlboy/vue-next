@@ -11,7 +11,7 @@ import { flushPostFlushCbs } from './scheduler'
 import { ComponentOptions, ComponentInternalInstance } from './component'
 import { invokeDirectiveHook } from './directives'
 import { warn } from './warning'
-import { PatchFlags, ShapeFlags, isReservedProp, isOn } from '@vue/shared'
+import { PatchFlags, ShapeFlags, isReservedProp, isOn } from '@xlboy-v3/shared'
 import { RendererInternals, invokeVNodeHook, setRef } from './renderer'
 import {
   SuspenseImpl,

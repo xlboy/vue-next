@@ -1,5 +1,5 @@
 import { Slot } from '../componentSlots'
-import { isArray } from '@vue/shared'
+import { isArray } from '@xlboy-v3/shared'
 
 interface CompiledSlotDescriptor {
   name: string

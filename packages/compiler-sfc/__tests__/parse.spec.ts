@@ -1,5 +1,5 @@
 import { parse } from '../src'
-import { baseParse, baseCompile } from '@vue/compiler-core'
+import { baseParse, baseCompile } from '@xlboy-v3/compiler-core'
 import { SourceMapConsumer } from 'source-map'
 
 describe('compiler:sfc', () => {

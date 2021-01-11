@@ -1,5 +1,5 @@
 import { VNodeChild } from '../vnode'
-import { isArray, isString, isObject } from '@vue/shared'
+import { isArray, isString, isObject } from '@xlboy-v3/shared'
 import { warn } from '../warning'
 
 /**

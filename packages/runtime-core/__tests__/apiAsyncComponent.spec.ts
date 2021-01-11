@@ -6,7 +6,7 @@ import {
   nextTick,
   Suspense
 } from '../src'
-import { createApp, nodeOps, serializeInner } from '@vue/runtime-test'
+import { createApp, nodeOps, serializeInner } from '@xlboy-v3/runtime-test'
 
 const timeout = (n: number = 0) => new Promise(r => setTimeout(r, n))
 

@@ -5,7 +5,7 @@ import {
   createCallExpression,
   SlotOutletNode,
   createFunctionExpression
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import { SSR_RENDER_SLOT } from '../runtimeHelpers'
 import {
   SSRTransformContext,

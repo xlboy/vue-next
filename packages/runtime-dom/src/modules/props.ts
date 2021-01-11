@@ -2,7 +2,7 @@
 // Reason: potentially setting innerHTML.
 // This can come from explicit usage of v-html or innerHTML as a prop in render
 
-import { warn } from '@vue/runtime-core'
+import { warn } from '@xlboy-v3/runtime-core'
 
 // functions. The user is responsible for using them with only trusted content.
 export function patchDOMProp(

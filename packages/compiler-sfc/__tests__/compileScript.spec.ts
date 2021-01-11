@@ -1,4 +1,4 @@
-import { BindingTypes } from '@vue/compiler-dom'
+import { BindingTypes } from '@xlboy-v3/compiler-dom'
 import { compileSFCScript as compile, assertCode } from './utils'
 
 describe('SFC compile <script setup>', () => {

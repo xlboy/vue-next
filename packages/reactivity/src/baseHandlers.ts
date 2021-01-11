@@ -23,7 +23,7 @@ import {
   isArray,
   isIntegerKey,
   extend
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { isRef } from './ref'
 
 const builtInSymbols = new Set(

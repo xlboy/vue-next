@@ -6,7 +6,7 @@ import {
   getComponentName
 } from '../component'
 import { Directive } from '../directives'
-import { camelize, capitalize, isString } from '@vue/shared'
+import { camelize, capitalize, isString } from '@xlboy-v3/shared'
 import { warn } from '../warning'
 import { VNodeTypes } from '../vnode'
 

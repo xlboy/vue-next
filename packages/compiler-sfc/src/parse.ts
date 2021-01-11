@@ -5,8 +5,8 @@ import {
   CompilerError,
   TextModes,
   BindingMetadata
-} from '@vue/compiler-core'
-import * as CompilerDOM from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-core'
+import * as CompilerDOM from '@xlboy-v3/compiler-dom'
 import { RawSourceMap, SourceMapGenerator } from 'source-map'
 import { TemplateCompiler } from './compileTemplate'
 import { Statement } from '@babel/types'

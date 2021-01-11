@@ -1,7 +1,7 @@
 import { ComponentInternalInstance, warn } from 'vue'
-import { compile } from '@vue/compiler-ssr'
-import { generateCodeFrame, NO } from '@vue/shared'
-import { CompilerError } from '@vue/compiler-core'
+import { compile } from '@xlboy-v3/compiler-ssr'
+import { generateCodeFrame, NO } from '@xlboy-v3/shared'
+import { CompilerError } from '@xlboy-v3/compiler-core'
 import { PushFn } from '../render'
 
 type SSRRenderFunction = (

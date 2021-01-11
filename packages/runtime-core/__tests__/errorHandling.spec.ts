@@ -9,7 +9,7 @@ import {
   nextTick,
   defineComponent,
   watchEffect
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('error handling', () => {
   test('propagation', () => {

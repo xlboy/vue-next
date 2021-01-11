@@ -4,7 +4,7 @@ import {
   PUSH_SCOPE_ID,
   POP_SCOPE_ID
 } from '../src/runtimeHelpers'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { genFlagText } from './testUtils'
 
 describe('scopeId compiler support', () => {

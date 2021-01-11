@@ -1,4 +1,4 @@
-import { isFunction } from '@vue/shared'
+import { isFunction } from '@xlboy-v3/shared'
 import { currentInstance } from './component'
 import { currentRenderingInstance } from './componentRenderUtils'
 import { warn } from './warning'

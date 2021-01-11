@@ -1,4 +1,4 @@
-import { toHandlerKey, isObject } from '@vue/shared'
+import { toHandlerKey, isObject } from '@xlboy-v3/shared'
 import { warn } from '../warning'
 
 /**

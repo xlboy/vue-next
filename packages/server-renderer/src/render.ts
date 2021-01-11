@@ -23,7 +23,7 @@ import {
   isVoidTag,
   ShapeFlags,
   isArray
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { ssrRenderAttrs } from './helpers/ssrRenderAttrs'
 import { ssrCompile } from './helpers/ssrCompile'
 import { ssrRenderTeleport } from './helpers/ssrRenderTeleport'

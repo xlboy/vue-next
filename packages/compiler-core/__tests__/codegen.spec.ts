@@ -34,7 +34,7 @@ import {
   RENDER_LIST
 } from '../src/runtimeHelpers'
 import { createElementWithCodegen, genFlagText } from './testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 
 function createRoot(options: Partial<RootNode> = {}): RootNode {
   return {

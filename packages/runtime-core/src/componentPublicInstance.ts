@@ -8,7 +8,7 @@ import {
   NOOP,
   extend,
   isString
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import {
   ReactiveEffect,
   toRaw,
@@ -17,7 +17,7 @@ import {
   track,
   TrackOpTypes,
   ShallowUnwrapRef
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import {
   ExtractComputedReturns,
   ComponentOptionsBase,
@@ -47,7 +47,7 @@ import { UnionToIntersection } from './helpers/typeUtils'
  * import { createApp } from 'vue'
  * import { Router, createRouter } from 'vue-router'
  *
- * declare module '@vue/runtime-core' {
+ * declare module '@xlboy-v3/runtime-core' {
  *   interface ComponentCustomProperties {
  *     $router: Router
  *   }

@@ -11,7 +11,7 @@ import {
   ShapeFlags,
   SlotFlags,
   isOn
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import {
   ComponentInternalInstance,
   Data,
@@ -21,7 +21,7 @@ import {
   isClassComponent
 } from './component'
 import { RawSlots } from './componentSlots'
-import { isProxy, Ref, toRaw, ReactiveFlags, isRef } from '@vue/reactivity'
+import { isProxy, Ref, toRaw, ReactiveFlags, isRef } from '@xlboy-v3/reactivity'
 import { AppContext } from './apiCreateApp'
 import {
   SuspenseImpl,

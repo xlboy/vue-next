@@ -23,7 +23,7 @@ export {
   shallowReadonly,
   markRaw,
   toRaw
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 export { computed } from './apiComputed'
 export { watch, watchEffect } from './apiWatch'
 export {
@@ -106,7 +106,7 @@ import { ComponentInternalInstance } from './component'
 
 // Augment Ref unwrap bail types.
 // Note: if updating this, also update `types/refBail.d.ts`.
-declare module '@vue/reactivity' {
+declare module '@xlboy-v3/reactivity' {
   export interface RefUnwrapBailTypes {
     runtimeCoreBailTypes:
       | VNode
@@ -132,7 +132,7 @@ export {
   WritableComputedOptions,
   ToRefs,
   DeepReadonly
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 export {
   // types
   WatchEffect,
@@ -226,7 +226,7 @@ export { HMRRuntime } from './hmr'
 // user code should avoid relying on them.
 
 // For compiler generated code
-// should sync with '@vue/compiler-core/src/runtimeConstants.ts'
+// should sync with '@xlboy-v3/compiler-core/src/runtimeConstants.ts'
 export { withCtx } from './helpers/withRenderContext'
 export { renderList } from './helpers/renderList'
 export { toHandlers } from './helpers/toHandlers'
@@ -246,7 +246,7 @@ export {
   camelize,
   capitalize,
   toHandlerKey
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 
 // For test-utils
 export { transformVNodeArgs } from './vnode'

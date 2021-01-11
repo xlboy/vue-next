@@ -7,7 +7,7 @@ For full exposed APIs, see `src/index.ts`. You can also run `yarn build runtime-
 ## Building a Custom Renderer
 
 ``` ts
-import { createRenderer } from '@vue/runtime-core'
+import { createRenderer } from '@xlboy-v3/runtime-core'
 
 const { render, createApp } = createRenderer({
   patchProp,
@@ -22,7 +22,7 @@ const { render, createApp } = createRenderer({
 // by the entire app tree.
 export { render, createApp }
 
-export * from '@vue/runtime-core'
+export * from '@xlboy-v3/runtime-core'
 ```
 
 See `@vue/runtime-dom` for how a DOM-targeting renderer is implemented.

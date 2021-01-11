@@ -1,5 +1,5 @@
 import { patchEvent } from '../../src/modules/events'
-import { withModifiers, withKeys } from '@vue/runtime-dom'
+import { withModifiers, withKeys } from '@xlboy-v3/runtime-dom'
 
 function triggerEvent(
   target: Element,

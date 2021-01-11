@@ -32,7 +32,7 @@ import {
   BASE_TRANSITION,
   TO_HANDLERS
 } from './runtimeHelpers'
-import { isString, isObject, hyphenate, extend } from '@vue/shared'
+import { isString, isObject, hyphenate, extend } from '@xlboy-v3/shared'
 
 export const isStaticExp = (p: JSChildNode): p is SimpleExpressionNode =>
   p.type === NodeTypes.SIMPLE_EXPRESSION && p.isStatic

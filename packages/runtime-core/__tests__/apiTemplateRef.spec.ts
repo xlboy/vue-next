@@ -8,7 +8,7 @@ import {
   reactive,
   serializeInner,
   shallowRef
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 // reference: https://vue-composition-api-rfc.netlify.com/api.html#template-refs
 

@@ -4,7 +4,7 @@ import {
   nodeOps,
   TestElement,
   serializeInner as inner
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('renderer: element', () => {
   let root: TestElement

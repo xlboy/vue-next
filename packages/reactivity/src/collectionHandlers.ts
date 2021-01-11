@@ -8,7 +8,7 @@ import {
   hasChanged,
   toRawType,
   isMap
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 
 export type CollectionTypes = IterableCollections | WeakCollections
 

@@ -1,4 +1,4 @@
-import { isString } from '@vue/shared'
+import { isString } from '@xlboy-v3/shared'
 import { ForParseResult } from './transforms/vFor'
 import {
   RENDER_SLOT,

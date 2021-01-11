@@ -5,7 +5,7 @@ import {
   nodeOps,
   nextTick,
   getCurrentInstance
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { normalizeVNode } from '../src/vnode'
 import { createSlots } from '../src/helpers/createSlots'
 

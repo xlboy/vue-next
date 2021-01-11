@@ -16,8 +16,8 @@ import {
   withCtx,
   renderSlot,
   onBeforeUnmount
-} from '@vue/runtime-test'
-import { PatchFlags, SlotFlags } from '@vue/shared'
+} from '@xlboy-v3/runtime-test'
+import { PatchFlags, SlotFlags } from '@xlboy-v3/shared'
 
 describe('renderer: optimized mode', () => {
   let root: TestElement

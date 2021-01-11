@@ -7,7 +7,7 @@ import {
   withDirectives,
   VNode,
   ref
-} from '@vue/runtime-dom'
+} from '@xlboy-v3/runtime-dom'
 
 const triggerEvent = (type: string, el: Element) => {
   const event = new Event(type)

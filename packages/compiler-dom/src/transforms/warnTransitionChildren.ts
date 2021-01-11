@@ -4,7 +4,7 @@ import {
   ElementTypes,
   ComponentNode,
   IfBranchNode
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { TRANSITION } from '../runtimeHelpers'
 import { createDOMCompilerError, DOMErrorCodes } from '../errors'
 

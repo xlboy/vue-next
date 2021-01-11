@@ -5,7 +5,7 @@ import {
   VNodeProps,
   isSameVNodeType
 } from '../vnode'
-import { isFunction, isArray, ShapeFlags, toNumber } from '@vue/shared'
+import { isFunction, isArray, ShapeFlags, toNumber } from '@xlboy-v3/shared'
 import { ComponentInternalInstance, handleSetupResult } from '../component'
 import { Slots } from '../componentSlots'
 import {

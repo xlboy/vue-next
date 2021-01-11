@@ -13,9 +13,9 @@ import {
 } from '../vnode'
 import { warn } from '../warning'
 import { isKeepAlive } from './KeepAlive'
-import { toRaw } from '@vue/reactivity'
+import { toRaw } from '@xlboy-v3/reactivity'
 import { callWithAsyncErrorHandling, ErrorCodes } from '../errorHandling'
-import { ShapeFlags, PatchFlags } from '@vue/shared'
+import { ShapeFlags, PatchFlags } from '@xlboy-v3/shared'
 import { onBeforeUnmount, onMounted } from '../apiLifecycle'
 import { RendererElement } from '../renderer'
 

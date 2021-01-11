@@ -1,5 +1,5 @@
 import { ParserOptions } from './options'
-import { NO, isArray, makeMap, extend } from '@vue/shared'
+import { NO, isArray, makeMap, extend } from '@xlboy-v3/shared'
 import { ErrorCodes, createCompilerError, defaultOnError } from './errors'
 import {
   assert,

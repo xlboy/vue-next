@@ -28,7 +28,7 @@ import { transformElement } from '../../src/transforms/transformElement'
 import { transformStyle } from '../../../compiler-dom/src/transforms/transformStyle'
 import { transformOn } from '../../src/transforms/vOn'
 import { transformBind } from '../../src/transforms/vBind'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { createObjectMatcher, genFlagText } from '../testUtils'
 import { transformText } from '../../src/transforms/transformText'
 

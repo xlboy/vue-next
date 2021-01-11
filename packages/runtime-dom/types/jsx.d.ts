@@ -1313,7 +1313,7 @@ type EventHandlers<E> = {
 
 // use namespace import to avoid collision with generated types which use
 // named imports.
-import * as RuntimeCore from '@vue/runtime-core'
+import * as RuntimeCore from '@xlboy-v3/runtime-core'
 
 type ReservedProps = {
   key?: string | number

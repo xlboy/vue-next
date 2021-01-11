@@ -1,4 +1,4 @@
-import { ComponentNode, findProp, NodeTypes } from '@vue/compiler-dom'
+import { ComponentNode, findProp, NodeTypes } from '@xlboy-v3/compiler-dom'
 import { processChildren, SSRTransformContext } from '../ssrCodegenTransform'
 
 export function ssrProcessTransitionGroup(

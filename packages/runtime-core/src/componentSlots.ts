@@ -14,7 +14,7 @@ import {
   extend,
   def,
   SlotFlags
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { warn } from './warning'
 import { isKeepAlive } from './components/KeepAlive'
 import { withCtx } from './helpers/withRenderContext'

@@ -3,14 +3,14 @@ import {
   transform,
   PlainElementNode,
   CompilerOptions
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { transformVText } from '../../src/transforms/vText'
 import { transformElement } from '../../../compiler-core/src/transforms/transformElement'
 import {
   createObjectMatcher,
   genFlagText
 } from '../../../compiler-core/__tests__/testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { DOMErrorCodes } from '../../src/errors'
 
 function transformWithVText(template: string, options: CompilerOptions = {}) {

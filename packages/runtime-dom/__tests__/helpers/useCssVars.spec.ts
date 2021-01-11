@@ -7,7 +7,7 @@ import {
   nextTick,
   ComponentOptions,
   Suspense
-} from '@vue/runtime-dom'
+} from '@xlboy-v3/runtime-dom'
 
 describe('useCssVars', () => {
   async function assertCssVars(getApp: (state: any) => ComponentOptions) {

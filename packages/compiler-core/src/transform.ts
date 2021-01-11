@@ -27,7 +27,7 @@ import {
   EMPTY_OBJ,
   capitalize,
   camelize
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { defaultOnError } from './errors'
 import {
   TO_DISPLAY_STRING,

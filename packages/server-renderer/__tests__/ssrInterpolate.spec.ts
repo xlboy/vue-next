@@ -1,5 +1,5 @@
 import { ssrInterpolate } from '../src/helpers/ssrInterpolate'
-import { escapeHtml } from '@vue/shared'
+import { escapeHtml } from '@xlboy-v3/shared'
 
 test('ssr: interpolate', () => {
   expect(ssrInterpolate(0)).toBe(`0`)

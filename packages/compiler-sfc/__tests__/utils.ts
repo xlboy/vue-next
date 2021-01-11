@@ -1,6 +1,6 @@
 import { parse, SFCScriptCompileOptions, compileScript } from '../src'
 import { parse as babelParse } from '@babel/parser'
-import { babelParserDefaultPlugins } from '@vue/shared'
+import { babelParserDefaultPlugins } from '@xlboy-v3/shared'
 
 export const mockId = 'xxxxxxxx'
 

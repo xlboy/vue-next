@@ -12,7 +12,7 @@ return withDirectives(h(comp), [
 */
 
 import { VNode } from './vnode'
-import { isFunction, EMPTY_OBJ, makeMap } from '@vue/shared'
+import { isFunction, EMPTY_OBJ, makeMap } from '@xlboy-v3/shared'
 import { warn } from './warning'
 import { ComponentInternalInstance, Data } from './component'
 import { currentRenderingInstance } from './componentRenderUtils'

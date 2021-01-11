@@ -1,8 +1,8 @@
-import { isArray } from '@vue/shared'
+import { isArray } from '@xlboy-v3/shared'
 import {
   ComponentInternalInstance,
   callWithAsyncErrorHandling
-} from '@vue/runtime-core'
+} from '@xlboy-v3/runtime-core'
 import { ErrorCodes } from 'packages/runtime-core/src/errorHandling'
 
 interface Invoker extends EventListener {

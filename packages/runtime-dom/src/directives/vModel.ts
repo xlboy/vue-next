@@ -4,7 +4,7 @@ import {
   DirectiveHook,
   DirectiveBinding,
   warn
-} from '@vue/runtime-core'
+} from '@xlboy-v3/runtime-core'
 import { addEventListener } from '../modules/events'
 import {
   isArray,
@@ -13,7 +13,7 @@ import {
   invokeArrayFns,
   toNumber,
   isSet
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 
 type AssignerFn = (value: any) => void
 

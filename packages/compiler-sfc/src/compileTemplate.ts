@@ -5,7 +5,7 @@ import {
   NodeTransform,
   ParserOptions,
   RootNode
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { SourceMapConsumer, SourceMapGenerator, RawSourceMap } from 'source-map'
 import {
   transformAssetUrl,
@@ -18,9 +18,9 @@ import {
   transformSrcset,
   createSrcsetTransformWithOptions
 } from './templateTransformSrcset'
-import { isObject } from '@vue/shared'
-import * as CompilerDOM from '@vue/compiler-dom'
-import * as CompilerSSR from '@vue/compiler-ssr'
+import { isObject } from '@xlboy-v3/shared'
+import * as CompilerDOM from '@xlboy-v3/compiler-dom'
+import * as CompilerSSR from '@xlboy-v3/compiler-ssr'
 import consolidate from 'consolidate'
 import { warnOnce } from './warn'
 import { genCssVarsFromList } from './cssVars'

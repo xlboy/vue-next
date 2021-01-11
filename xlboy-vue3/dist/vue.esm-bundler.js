@@ -1,8 +1,8 @@
-import * as runtimeDom from '@vue/runtime-dom';
-import { setDevtoolsHook, initCustomFormatter, warn, registerRuntimeCompiler } from '@vue/runtime-dom';
-export * from '@vue/runtime-dom';
-import { getGlobalThis, isString, NOOP, extend, generateCodeFrame } from '@vue/shared';
-import { compile } from '@vue/compiler-dom';
+import * as runtimeDom from '@xlboy-v3/runtime-dom';
+import { setDevtoolsHook, initCustomFormatter, warn, registerRuntimeCompiler } from '@xlboy-v3/runtime-dom';
+export * from '@xlboy-v3/runtime-dom';
+import { getGlobalThis, isString, NOOP, extend, generateCodeFrame } from '@xlboy-v3/shared';
+import { compile } from '@xlboy-v3/compiler-dom';
 
 function initDev() {
     const target = getGlobalThis();

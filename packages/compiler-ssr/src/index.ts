@@ -11,7 +11,7 @@ import {
   noopDirectiveTransform,
   transformBind,
   transformStyle
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import { ssrCodegenTransform } from './ssrCodegenTransform'
 import { ssrTransformElement } from './transforms/ssrTransformElement'
 import {

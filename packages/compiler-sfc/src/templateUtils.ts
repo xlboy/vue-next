@@ -1,5 +1,5 @@
 import { UrlWithStringQuery, parse as uriParse } from 'url'
-import { isString } from '@vue/shared'
+import { isString } from '@xlboy-v3/shared'
 
 export function isRelativeUrl(url: string): boolean {
   const firstChar = url.charAt(0)

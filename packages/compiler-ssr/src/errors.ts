@@ -3,7 +3,7 @@ import {
   CompilerError,
   createCompilerError,
   DOMErrorCodes
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 
 export interface SSRCompilerError extends CompilerError {
   code: SSRErrorCodes

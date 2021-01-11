@@ -1,4 +1,4 @@
-import { nodeOps, render } from '@vue/runtime-test'
+import { nodeOps, render } from '@xlboy-v3/runtime-test'
 import { defineComponent, h, ref } from '../src'
 
 describe('api: expose', () => {

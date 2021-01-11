@@ -6,7 +6,7 @@ import {
   createFunctionExpression,
   createCallExpression,
   ExpressionNode
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import {
   SSRTransformContext,
   processChildrenAsStatement

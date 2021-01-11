@@ -8,7 +8,7 @@ import {
   TemplateChildNode,
   ParentNode,
   findDir
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 
 const hasSingleChild = (node: ParentNode): boolean =>
   node.children.filter(n => n.type !== NodeTypes.COMMENT).length === 1

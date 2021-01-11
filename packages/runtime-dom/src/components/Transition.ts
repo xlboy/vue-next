@@ -4,8 +4,8 @@ import {
   h,
   warn,
   FunctionalComponent
-} from '@vue/runtime-core'
-import { isObject, toNumber, extend } from '@vue/shared'
+} from '@xlboy-v3/runtime-core'
+import { isObject, toNumber, extend } from '@xlboy-v3/shared'
 
 const TRANSITION = 'transition'
 const ANIMATION = 'animation'

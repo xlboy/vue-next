@@ -9,9 +9,9 @@ import {
   triggerEvent,
   TestElement,
   nextTick
-} from '@vue/runtime-test'
-import * as runtimeTest from '@vue/runtime-test'
-import { baseCompile } from '@vue/compiler-core'
+} from '@xlboy-v3/runtime-test'
+import * as runtimeTest from '@xlboy-v3/runtime-test'
+import { baseCompile } from '@xlboy-v3/compiler-core'
 
 declare var __VUE_HMR_RUNTIME__: HMRRuntime
 const { createRecord, rerender, reload } = __VUE_HMR_RUNTIME__

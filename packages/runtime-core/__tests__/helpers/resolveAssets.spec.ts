@@ -11,7 +11,7 @@ import {
   createVNode,
   Comment,
   VNode
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('resolveAssets', () => {
   test('should work', () => {

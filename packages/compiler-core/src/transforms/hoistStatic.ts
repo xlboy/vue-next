@@ -12,7 +12,7 @@ import {
   ParentNode
 } from '../ast'
 import { TransformContext } from '../transform'
-import { PatchFlags, isString, isSymbol } from '@vue/shared'
+import { PatchFlags, isString, isSymbol } from '@xlboy-v3/shared'
 import { isSlotOutlet } from '../utils'
 import { CREATE_VNODE } from '../runtimeHelpers'
 

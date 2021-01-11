@@ -14,7 +14,7 @@ import {
   createConditionalExpression,
   createInterpolation,
   hasDynamicKeyVBind
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import {
   SSR_LOOSE_EQUAL,
   SSR_LOOSE_CONTAIN,

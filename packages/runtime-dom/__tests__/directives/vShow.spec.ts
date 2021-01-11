@@ -4,8 +4,8 @@ import {
   h,
   nextTick,
   VNode
-} from '@vue/runtime-core'
-import { render, vShow } from '@vue/runtime-dom'
+} from '@xlboy-v3/runtime-core'
+import { render, vShow } from '@xlboy-v3/runtime-dom'
 
 const withVShow = (node: VNode, exp: any) =>
   withDirectives(node, [[vShow, exp]])

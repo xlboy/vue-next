@@ -3,7 +3,7 @@ import {
   CompilerError,
   createCompilerError,
   ErrorCodes
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 
 export interface DOMCompilerError extends CompilerError {
   code: DOMErrorCodes

@@ -1,8 +1,8 @@
 import MagicString from 'magic-string'
-import { BindingMetadata, BindingTypes, UNREF } from '@vue/compiler-core'
+import { BindingMetadata, BindingTypes, UNREF } from '@xlboy-v3/compiler-core'
 import { SFCDescriptor, SFCScriptBlock } from './parse'
 import { parse as _parse, ParserOptions, ParserPlugin } from '@babel/parser'
-import { babelParserDefaultPlugins, generateCodeFrame } from '@vue/shared'
+import { babelParserDefaultPlugins, generateCodeFrame } from '@xlboy-v3/shared'
 import {
   Node,
   Declaration,

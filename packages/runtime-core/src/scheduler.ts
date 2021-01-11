@@ -1,5 +1,5 @@
 import { ErrorCodes, callWithErrorHandling } from './errorHandling'
-import { isArray } from '@vue/shared'
+import { isArray } from '@xlboy-v3/shared'
 import { ComponentPublicInstance } from './componentPublicInstance'
 
 export interface SchedulerJob {

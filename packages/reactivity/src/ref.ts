@@ -1,6 +1,6 @@
 import { track, trigger } from './effect'
 import { TrackOpTypes, TriggerOpTypes } from './operations'
-import { isArray, isObject, hasChanged } from '@vue/shared'
+import { isArray, isObject, hasChanged } from '@xlboy-v3/shared'
 import { reactive, isProxy, toRaw, isReactive } from './reactive'
 import { CollectionTypes } from './collectionHandlers'
 
@@ -199,7 +199,7 @@ type BaseTypes = string | number | boolean
  * \@vue/runtime-dom can declare it like so in its d.ts:
  *
  * ``` ts
- * declare module '@vue/reactivity' {
+ * declare module '@xlboy-v3/reactivity' {
  *   export interface RefUnwrapBailTypes {
  *     runtimeDOMBailTypes: Node | Window
  *   }

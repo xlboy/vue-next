@@ -10,8 +10,8 @@ import {
   onMounted,
   defineAsyncComponent,
   defineComponent
-} from '@vue/runtime-dom'
-import { renderToString, SSRContext } from '@vue/server-renderer'
+} from '@xlboy-v3/runtime-dom'
+import { renderToString, SSRContext } from '@xlboy-v3/server-renderer'
 
 function mountWithHydration(html: string, render: () => any) {
   const container = document.createElement('div')

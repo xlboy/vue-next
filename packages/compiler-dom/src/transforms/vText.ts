@@ -4,7 +4,7 @@ import {
   createSimpleExpression,
   TO_DISPLAY_STRING,
   createCallExpression
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { createDOMCompilerError, DOMErrorCodes } from '../errors'
 
 export const transformVText: DirectiveTransform = (dir, node, context) => {

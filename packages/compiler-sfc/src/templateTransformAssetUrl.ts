@@ -7,14 +7,14 @@ import {
   NodeTypes,
   SourceLocation,
   TransformContext
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import {
   isRelativeUrl,
   parseUrl,
   isExternalUrl,
   isDataUrl
 } from './templateUtils'
-import { isArray } from '@vue/shared'
+import { isArray } from '@xlboy-v3/shared'
 
 export interface AssetURLTagConfig {
   [name: string]: string[]

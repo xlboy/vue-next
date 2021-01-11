@@ -1,7 +1,7 @@
 # @vue/runtime-dom
 
 ``` js
-import { h, createApp } from '@vue/runtime-dom'
+import { h, createApp } from '@xlboy-v3/runtime-dom'
 
 const RootComponent = {
   render() {

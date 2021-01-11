@@ -1,4 +1,4 @@
-import { createApp } from '@vue/runtime-dom'
+import { createApp } from '@xlboy-v3/runtime-dom'
 
 describe('vCloak', () => {
   test('should be removed after compile', () => {

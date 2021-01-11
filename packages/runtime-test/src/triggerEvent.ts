@@ -1,4 +1,4 @@
-import { isArray } from '@vue/shared'
+import { isArray } from '@xlboy-v3/shared'
 import { TestElement } from './nodeOps'
 
 export function triggerEvent(

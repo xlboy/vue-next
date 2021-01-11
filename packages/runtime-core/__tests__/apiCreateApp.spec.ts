@@ -12,7 +12,7 @@ import {
   ref,
   getCurrentInstance,
   defineComponent
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('api: createApp', () => {
   test('mount', () => {

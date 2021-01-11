@@ -8,7 +8,7 @@ import {
 } from './vnode'
 import { Teleport, TeleportProps } from './components/Teleport'
 import { Suspense, SuspenseProps } from './components/Suspense'
-import { isObject, isArray } from '@vue/shared'
+import { isObject, isArray } from '@xlboy-v3/shared'
 import { RawSlots } from './componentSlots'
 import {
   FunctionalComponent,

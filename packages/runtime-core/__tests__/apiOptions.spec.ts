@@ -9,7 +9,7 @@ import {
   renderToString,
   ref,
   defineComponent
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('api: options', () => {
   test('data', async () => {

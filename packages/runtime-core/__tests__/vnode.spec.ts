@@ -11,9 +11,9 @@ import {
   transformVNodeArgs
 } from '../src/vnode'
 import { Data } from '../src/component'
-import { ShapeFlags, PatchFlags } from '@vue/shared'
+import { ShapeFlags, PatchFlags } from '@xlboy-v3/shared'
 import { h, reactive, isReactive, setBlockTracking } from '../src'
-import { createApp, nodeOps, serializeInner } from '@vue/runtime-test'
+import { createApp, nodeOps, serializeInner } from '@xlboy-v3/runtime-test'
 import { setCurrentRenderingInstance } from '../src/componentRenderUtils'
 
 describe('vnode', () => {

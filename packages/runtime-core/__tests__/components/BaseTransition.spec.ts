@@ -11,7 +11,7 @@ import {
   VNodeProps,
   KeepAlive,
   TestElement
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 function mount(
   props: BaseTransitionProps,

@@ -2,9 +2,9 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var runtimeDom = require('@vue/runtime-dom');
-var shared = require('@vue/shared');
-var compilerDom = require('@vue/compiler-dom');
+var runtimeDom = require('@xlboy-v3/runtime-dom');
+var shared = require('@xlboy-v3/shared');
+var compilerDom = require('@xlboy-v3/compiler-dom');
 
 function _interopNamespace(e) {
   if (e && e.__esModule) return e;

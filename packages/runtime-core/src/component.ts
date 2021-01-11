@@ -5,7 +5,7 @@ import {
   resetTracking,
   shallowReadonly,
   proxyRefs
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import {
   ComponentPublicInstance,
   PublicInstanceProxyHandlers,
@@ -48,9 +48,9 @@ import {
   makeMap,
   isPromise,
   ShapeFlags
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { SuspenseBoundary } from './components/Suspense'
-import { CompilerOptions } from '@vue/compiler-core'
+import { CompilerOptions } from '@xlboy-v3/compiler-core'
 import {
   currentRenderingInstance,
   markAttrsAccessed

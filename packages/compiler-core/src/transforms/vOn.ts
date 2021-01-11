@@ -9,7 +9,7 @@ import {
   NodeTypes,
   SimpleExpressionNode
 } from '../ast'
-import { camelize, toHandlerKey } from '@vue/shared'
+import { camelize, toHandlerKey } from '@xlboy-v3/shared'
 import { createCompilerError, ErrorCodes } from '../errors'
 import { processExpression } from './transformExpression'
 import { validateBrowserExpression } from '../validateExpression'

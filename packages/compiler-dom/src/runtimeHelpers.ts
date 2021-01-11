@@ -1,4 +1,4 @@
-import { registerRuntimeHelpers } from '@vue/compiler-core'
+import { registerRuntimeHelpers } from '@xlboy-v3/compiler-core'
 
 export const V_MODEL_RADIO = Symbol(__DEV__ ? `vModelRadio` : ``)
 export const V_MODEL_CHECKBOX = Symbol(__DEV__ ? `vModelCheckbox` : ``)

@@ -21,8 +21,8 @@ import {
   onUpdated,
   SetupContext,
   toRaw
-} from '@vue/runtime-core'
-import { extend } from '@vue/shared'
+} from '@xlboy-v3/runtime-core'
+import { extend } from '@xlboy-v3/shared'
 
 interface Position {
   top: number

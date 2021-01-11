@@ -8,7 +8,7 @@ import {
   TemplateChildNode,
   findDir,
   isBuiltInType
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 
 export const ssrInjectCssVars: NodeTransform = (node, context) => {
   if (!context.ssrCssVars) {

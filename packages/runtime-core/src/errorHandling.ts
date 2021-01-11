@@ -1,7 +1,7 @@
 import { VNode } from './vnode'
 import { ComponentInternalInstance, LifecycleHooks } from './component'
 import { warn, pushWarningContext, popWarningContext } from './warning'
-import { isPromise, isFunction } from '@vue/shared'
+import { isPromise, isFunction } from '@xlboy-v3/shared'
 
 // contexts where user provided function may be executed, in addition to
 // lifecycle hooks.

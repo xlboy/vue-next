@@ -1,7 +1,7 @@
 import { DirectiveTransform } from '../transform'
 import { createObjectProperty, createSimpleExpression, NodeTypes } from '../ast'
 import { createCompilerError, ErrorCodes } from '../errors'
-import { camelize } from '@vue/shared'
+import { camelize } from '@xlboy-v3/shared'
 import { CAMELIZE } from '../runtimeHelpers'
 
 // v-bind without arg is handled directly in ./transformElements.ts due to it affecting

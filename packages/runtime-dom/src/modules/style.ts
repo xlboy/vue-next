@@ -1,5 +1,5 @@
-import { isString, hyphenate, capitalize, isArray } from '@vue/shared'
-import { camelize } from '@vue/runtime-core'
+import { isString, hyphenate, capitalize, isArray } from '@xlboy-v3/shared'
+import { camelize } from '@xlboy-v3/runtime-core'
 
 type Style = string | Record<string, string | string[]> | null
 

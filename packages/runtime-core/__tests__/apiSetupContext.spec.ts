@@ -1,4 +1,4 @@
-import { ref, reactive } from '@vue/reactivity'
+import { ref, reactive } from '@xlboy-v3/reactivity'
 import {
   renderToString,
   h,
@@ -10,7 +10,7 @@ import {
   defineComponent,
   triggerEvent,
   TestElement
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 // reference: https://vue-composition-api-rfc.netlify.com/api.html#setup
 

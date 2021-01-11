@@ -12,7 +12,7 @@ import { transformExpression } from '../../src/transforms/transformExpression'
 import { transformElement } from '../../src/transforms/transformElement'
 import { CREATE_TEXT } from '../../src/runtimeHelpers'
 import { genFlagText } from '../testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 
 function transformWithTextOpt(template: string, options: CompilerOptions = {}) {
   const ast = parse(template)

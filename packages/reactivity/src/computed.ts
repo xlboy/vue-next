@@ -1,7 +1,7 @@
 import { effect, ReactiveEffect, trigger, track } from './effect'
 import { TriggerOpTypes, TrackOpTypes } from './operations'
 import { Ref } from './ref'
-import { isFunction, NOOP } from '@vue/shared'
+import { isFunction, NOOP } from '@xlboy-v3/shared'
 import { ReactiveFlags, toRaw } from './reactive'
 
 export interface ComputedRef<T = any> extends WritableComputedRef<T> {

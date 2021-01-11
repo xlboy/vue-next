@@ -3,8 +3,8 @@ import { patchStyle } from './modules/style'
 import { patchAttr } from './modules/attrs'
 import { patchDOMProp } from './modules/props'
 import { patchEvent } from './modules/events'
-import { isOn, isString, isFunction, isModelListener } from '@vue/shared'
-import { RendererOptions } from '@vue/runtime-core'
+import { isOn, isString, isFunction, isModelListener } from '@xlboy-v3/shared'
+import { RendererOptions } from '@xlboy-v3/runtime-core'
 
 const nativeOnRE = /^on[a-z]/
 

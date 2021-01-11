@@ -5,8 +5,8 @@ import {
   ConcreteComponent,
   formatComponentName
 } from './component'
-import { isString, isFunction } from '@vue/shared'
-import { toRaw, isRef, pauseTracking, resetTracking } from '@vue/reactivity'
+import { isString, isFunction } from '@xlboy-v3/shared'
+import { toRaw, isRef, pauseTracking, resetTracking } from '@xlboy-v3/reactivity'
 import { callWithErrorHandling, ErrorCodes } from './errorHandling'
 
 type ComponentVNode = VNode & {

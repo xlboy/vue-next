@@ -17,8 +17,8 @@ import {
   createCompoundExpression,
   createTransformContext,
   createRoot
-} from '@vue/compiler-dom'
-import { isString, escapeHtml } from '@vue/shared'
+} from '@xlboy-v3/compiler-dom'
+import { isString, escapeHtml } from '@xlboy-v3/shared'
 import { SSR_INTERPOLATE, ssrHelpers } from './runtimeHelpers'
 import { ssrProcessIf } from './transforms/ssrVIf'
 import { ssrProcessFor } from './transforms/ssrVFor'
@@ -55,7 +55,7 @@ export function ssrCodegenTransform(ast: RootNode, options: CompilerOptions) {
   ast.codegenNode = createBlockStatement(context.body)
 
   // Finalize helpers.
-  // We need to separate helpers imported from 'vue' vs. '@vue/server-renderer'
+  // We need to separate helpers imported from 'vue' vs. '@xlboy-v3/server-renderer'
   ast.ssrHelpers = [
     ...ast.helpers.filter(h => h in ssrHelpers),
     ...context.helpers

@@ -1,5 +1,5 @@
-import { warn, getCurrentInstance } from '@vue/runtime-core'
-import { EMPTY_OBJ } from '@vue/shared'
+import { warn, getCurrentInstance } from '@xlboy-v3/runtime-core'
+import { EMPTY_OBJ } from '@xlboy-v3/shared'
 
 export function useCssModule(name = '$style'): Record<string, string> {
   /* istanbul ignore else */

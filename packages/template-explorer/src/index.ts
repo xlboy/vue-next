@@ -1,8 +1,8 @@
 import * as m from 'monaco-editor'
-import { compile, CompilerError, CompilerOptions } from '@vue/compiler-dom'
-import { compile as ssrCompile } from '@vue/compiler-ssr'
+import { compile, CompilerError, CompilerOptions } from '@xlboy-v3/compiler-dom'
+import { compile as ssrCompile } from '@xlboy-v3/compiler-ssr'
 import { compilerOptions, initOptions, ssrMode } from './options'
-import { toRaw, watchEffect } from '@vue/runtime-dom'
+import { toRaw, watchEffect } from '@xlboy-v3/runtime-dom'
 import { SourceMapConsumer } from 'source-map'
 import theme from './theme'
 

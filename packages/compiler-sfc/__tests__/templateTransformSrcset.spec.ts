@@ -1,4 +1,4 @@
-import { generate, baseParse, transform } from '@vue/compiler-core'
+import { generate, baseParse, transform } from '@xlboy-v3/compiler-core'
 import {
   transformSrcset,
   createSrcsetTransformWithOptions

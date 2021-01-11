@@ -42,7 +42,7 @@ import {
 } from '../runtimeHelpers'
 import { processExpression } from './transformExpression'
 import { validateBrowserExpression } from '../validateExpression'
-import { PatchFlags, PatchFlagNames } from '@vue/shared'
+import { PatchFlags, PatchFlagNames } from '@xlboy-v3/shared'
 
 export const transformFor = createStructuralDirectiveTransform(
   'for',

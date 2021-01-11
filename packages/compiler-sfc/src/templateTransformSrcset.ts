@@ -6,7 +6,7 @@ import {
   NodeTransform,
   NodeTypes,
   SimpleExpressionNode
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import {
   isRelativeUrl,
   parseUrl,

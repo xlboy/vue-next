@@ -1,5 +1,5 @@
 import { TestElement, logNodeOp, NodeOpTypes } from './nodeOps'
-import { isOn } from '@vue/shared'
+import { isOn } from '@xlboy-v3/shared'
 
 export function patchProp(
   el: TestElement,

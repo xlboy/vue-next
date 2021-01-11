@@ -5,8 +5,8 @@ import {
   Namespaces,
   NodeTypes,
   isBuiltInType
-} from '@vue/compiler-core'
-import { makeMap, isVoidTag, isHTMLTag, isSVGTag } from '@vue/shared'
+} from '@xlboy-v3/compiler-core'
+import { makeMap, isVoidTag, isHTMLTag, isSVGTag } from '@xlboy-v3/shared'
 import { TRANSITION, TRANSITION_GROUP } from './runtimeHelpers'
 import { decodeHtml } from './decodeHtml'
 import { decodeHtmlBrowser } from './decodeHtmlBrowser'

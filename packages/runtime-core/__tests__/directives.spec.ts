@@ -8,7 +8,7 @@ import {
   VNode,
   DirectiveBinding,
   nextTick
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { currentInstance, ComponentInternalInstance } from '../src/component'
 
 describe('directives', () => {

@@ -3,11 +3,11 @@ import {
   VNode,
   RootRenderFunction,
   CreateAppFunction
-} from '@vue/runtime-core'
+} from '@xlboy-v3/runtime-core'
 import { nodeOps, TestElement } from './nodeOps'
 import { patchProp } from './patchProp'
 import { serializeInner } from './serialize'
-import { extend } from '@vue/shared'
+import { extend } from '@xlboy-v3/shared'
 
 const { render: baseRender, createApp: baseCreateApp } = createRenderer(
   extend({ patchProp }, nodeOps)
@@ -26,4 +26,4 @@ export function renderToString(vnode: VNode) {
 export * from './triggerEvent'
 export * from './serialize'
 export * from './nodeOps'
-export * from '@vue/runtime-core'
+export * from '@xlboy-v3/runtime-core'

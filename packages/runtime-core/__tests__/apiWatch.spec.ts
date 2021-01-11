@@ -16,7 +16,7 @@ import {
   serializeInner,
   TestElement,
   h
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import {
   ITERATE_KEY,
   DebuggerEvent,
@@ -25,7 +25,7 @@ import {
   triggerRef,
   shallowRef,
   Ref
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 
 // reference: https://vue-composition-api-rfc.netlify.com/api.html#watch
 

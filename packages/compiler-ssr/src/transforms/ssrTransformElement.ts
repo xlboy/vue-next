@@ -27,14 +27,14 @@ import {
   InterpolationNode,
   isStaticExp,
   AttributeNode
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import {
   escapeHtml,
   isBooleanAttr,
   isSSRSafeAttrName,
   NO,
   propsToAttrMap
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { createSSRCompilerError, SSRErrorCodes } from '../errors'
 import {
   SSR_RENDER_ATTR,

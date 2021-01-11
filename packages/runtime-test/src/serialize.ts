@@ -5,7 +5,7 @@ import {
   TestText,
   TestComment
 } from './nodeOps'
-import { isOn } from '@vue/shared'
+import { isOn } from '@xlboy-v3/shared'
 
 export function serialize(
   node: TestNode,

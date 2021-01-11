@@ -10,7 +10,7 @@ import {
   createTextVNode,
   createStaticVNode
 } from 'vue'
-import { escapeHtml } from '@vue/shared'
+import { escapeHtml } from '@xlboy-v3/shared'
 import { renderToString } from '../src/renderToString'
 import { renderToStream as _renderToStream } from '../src/renderToStream'
 import { ssrRenderSlot, SSRSlot } from '../src/helpers/ssrRenderSlot'

@@ -8,7 +8,7 @@ import {
   isClassComponent
 } from './component'
 import { queueJob, queuePostFlushCb } from './scheduler'
-import { extend } from '@vue/shared'
+import { extend } from '@xlboy-v3/shared'
 import { warn } from './warning'
 
 export let isHmrUpdating = false

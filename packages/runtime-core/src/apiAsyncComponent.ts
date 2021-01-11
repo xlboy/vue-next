@@ -6,12 +6,12 @@ import {
   isInSSRComponentSetup,
   ComponentOptions
 } from './component'
-import { isFunction, isObject } from '@vue/shared'
+import { isFunction, isObject } from '@xlboy-v3/shared'
 import { ComponentPublicInstance } from './componentPublicInstance'
 import { createVNode, VNode } from './vnode'
 import { defineComponent } from './apiDefineComponent'
 import { warn } from './warning'
-import { ref } from '@vue/reactivity'
+import { ref } from '@xlboy-v3/reactivity'
 import { handleError, ErrorCodes } from './errorHandling'
 
 export type AsyncComponentResolveResult<T = Component> = T | { default: T } // es modules

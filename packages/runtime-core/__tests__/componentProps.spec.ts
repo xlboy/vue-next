@@ -11,7 +11,7 @@ import {
   createApp,
   provide,
   inject
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { render as domRender, nextTick } from 'vue'
 
 describe('component props', () => {

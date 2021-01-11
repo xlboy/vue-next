@@ -9,7 +9,7 @@ import {
 } from '../ast'
 import { isText } from '../utils'
 import { CREATE_TEXT } from '../runtimeHelpers'
-import { PatchFlags, PatchFlagNames } from '@vue/shared'
+import { PatchFlags, PatchFlagNames } from '@xlboy-v3/shared'
 import { getConstantType } from './hoistStatic'
 
 // Merge adjacent text nodes and expressions into a single expression

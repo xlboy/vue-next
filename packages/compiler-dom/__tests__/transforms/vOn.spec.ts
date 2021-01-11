@@ -8,13 +8,13 @@ import {
   ObjectExpression,
   transform,
   VNodeCall
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { transformOn } from '../../src/transforms/vOn'
 import { V_ON_WITH_KEYS, V_ON_WITH_MODIFIERS } from '../../src/runtimeHelpers'
 import { transformElement } from '../../../compiler-core/src/transforms/transformElement'
 import { transformExpression } from '../../../compiler-core/src/transforms/transformExpression'
 import { genFlagText } from '../../../compiler-core/__tests__/testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 
 function parseWithVOn(template: string, options: CompilerOptions = {}) {
   const ast = parse(template)

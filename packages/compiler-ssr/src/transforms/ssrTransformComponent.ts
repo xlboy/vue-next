@@ -34,7 +34,7 @@ import {
   TRANSITION_GROUP,
   CREATE_VNODE,
   CallExpression
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import { SSR_RENDER_COMPONENT, SSR_RENDER_VNODE } from '../runtimeHelpers'
 import {
   SSRTransformContext,
@@ -47,7 +47,7 @@ import {
   ssrTransformSuspense
 } from './ssrTransformSuspense'
 import { ssrProcessTransitionGroup } from './ssrTransformTransitionGroup'
-import { isSymbol, isObject, isArray } from '@vue/shared'
+import { isSymbol, isObject, isArray } from '@xlboy-v3/shared'
 
 // We need to construct the slot functions in the 1st pass to ensure proper
 // scope tracking, but the children of each slot cannot be processed until

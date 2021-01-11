@@ -19,7 +19,7 @@ import {
   ExtractDefaultPropTypes
 } from './componentProps'
 import { EmitsOptions } from './componentEmits'
-import { isFunction } from '@vue/shared'
+import { isFunction } from '@xlboy-v3/shared'
 import { VNodeProps } from './vnode'
 import {
   CreateComponentPublicInstance,

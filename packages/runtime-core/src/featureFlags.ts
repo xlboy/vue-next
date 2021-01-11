@@ -1,4 +1,4 @@
-import { getGlobalThis } from '@vue/shared'
+import { getGlobalThis } from '@xlboy-v3/shared'
 
 /**
  * This is only called in esm-bundler builds.

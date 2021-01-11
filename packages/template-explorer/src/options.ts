@@ -1,6 +1,6 @@
 import { h, reactive, createApp, ref } from 'vue'
-import { CompilerOptions } from '@vue/compiler-dom'
-import { BindingTypes } from '@vue/compiler-core'
+import { CompilerOptions } from '@xlboy-v3/compiler-dom'
+import { BindingTypes } from '@xlboy-v3/compiler-core'
 
 export const ssrMode = ref(false)
 

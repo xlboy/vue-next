@@ -14,8 +14,8 @@ import {
   createBlock,
   openBlock,
   createCommentVNode
-} from '@vue/runtime-test'
-import { PatchFlags } from '@vue/shared'
+} from '@xlboy-v3/runtime-test'
+import { PatchFlags } from '@xlboy-v3/shared'
 import { renderList } from '../src/helpers/renderList'
 
 describe('renderer: fragment', () => {

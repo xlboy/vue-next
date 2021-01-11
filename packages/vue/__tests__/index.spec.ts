@@ -1,4 +1,4 @@
-import { EMPTY_ARR } from '@vue/shared'
+import { EMPTY_ARR } from '@xlboy-v3/shared'
 import { createApp, ref, nextTick, reactive } from '../src'
 
 describe('compiler + runtime integration', () => {

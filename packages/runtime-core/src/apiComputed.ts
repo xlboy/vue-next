@@ -4,7 +4,7 @@ import {
   WritableComputedOptions,
   WritableComputedRef,
   ComputedGetter
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import { recordInstanceBoundEffect } from './component'
 
 export function computed<T>(getter: ComputedGetter<T>): ComputedRef<T>

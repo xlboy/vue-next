@@ -1,4 +1,4 @@
-declare module '@vue/runtime-core' {
+declare module '@xlboy-v3/runtime-core' {
     interface ComponentCustomOptions {
         test?(n: number): void;
     }

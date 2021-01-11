@@ -6,7 +6,7 @@ import {
   TestElement,
   NodeTypes,
   VNode
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 
 describe('renderer: vnode hooks', () => {
   function assertHooks(hooks: VNodeProps, vnode1: VNode, vnode2: VNode) {

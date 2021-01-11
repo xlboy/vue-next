@@ -30,7 +30,7 @@ import {
   isReservedProp,
   capitalize,
   camelize
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { createCompilerError, ErrorCodes } from '../errors'
 import {
   RESOLVE_DIRECTIVE,

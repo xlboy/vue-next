@@ -1,5 +1,5 @@
-import { isReactive, isReadonly, isRef, Ref, toRaw } from '@vue/reactivity'
-import { EMPTY_OBJ, extend, isArray, isFunction, isObject } from '@vue/shared'
+import { isReactive, isReadonly, isRef, Ref, toRaw } from '@xlboy-v3/reactivity'
+import { EMPTY_OBJ, extend, isArray, isFunction, isObject } from '@xlboy-v3/shared'
 import { ComponentInternalInstance, ComponentOptions } from './component'
 import { ComponentPublicInstance } from './componentPublicInstance'
 

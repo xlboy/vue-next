@@ -6,7 +6,7 @@ import {
   NodeTypes,
   SimpleExpressionNode,
   BindingMetadata
-} from '@vue/compiler-dom'
+} from '@xlboy-v3/compiler-dom'
 import { SFCDescriptor } from './parse'
 import postcss, { Root } from 'postcss'
 import hash from 'hash-sum'

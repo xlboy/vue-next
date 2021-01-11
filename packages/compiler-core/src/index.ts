@@ -56,4 +56,4 @@ export {
   buildProps
 } from './transforms/transformElement'
 export { processSlotOutlet } from './transforms/transformSlotOutlet'
-export { generateCodeFrame } from '@vue/shared'
+export { generateCodeFrame } from '@xlboy-v3/shared'

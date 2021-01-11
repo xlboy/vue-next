@@ -5,8 +5,8 @@ import {
   SimpleExpressionNode,
   SourceLocation,
   ConstantTypes
-} from '@vue/compiler-core'
-import { parseStringStyle } from '@vue/shared'
+} from '@xlboy-v3/compiler-core'
+import { parseStringStyle } from '@xlboy-v3/shared'
 
 // Parse inline CSS strings for static style attributes into an object.
 // This is a NodeTransform since it works on the static `style` attribute and

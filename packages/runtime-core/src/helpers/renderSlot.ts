@@ -8,7 +8,7 @@ import {
   Fragment,
   VNode
 } from '../vnode'
-import { PatchFlags, SlotFlags } from '@vue/shared'
+import { PatchFlags, SlotFlags } from '@xlboy-v3/shared'
 import { warn } from '../warning'
 
 export let isRenderingCompiledSlot = 0

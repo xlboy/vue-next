@@ -1,7 +1,7 @@
 // Note: emits and listener fallthrough is tested in
 // ./rendererAttrsFallthrough.spec.ts.
 
-import { render, defineComponent, h, nodeOps } from '@vue/runtime-test'
+import { render, defineComponent, h, nodeOps } from '@xlboy-v3/runtime-test'
 import { isEmitListener } from '../src/componentEmits'
 
 describe('component: emit', () => {

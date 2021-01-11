@@ -9,7 +9,7 @@ import {
   readonly,
   reactive
 } from '../src/index'
-import { render, nodeOps, serialize } from '@vue/runtime-test'
+import { render, nodeOps, serialize } from '@xlboy-v3/runtime-test'
 
 // reference: https://vue-composition-api-rfc.netlify.com/api.html#provide-inject
 describe('api: provide/inject', () => {

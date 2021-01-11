@@ -16,7 +16,7 @@ import {
   cloneVNode,
   provide,
   withScopeId
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { KeepAliveProps } from '../../src/components/KeepAlive'
 
 describe('KeepAlive', () => {

@@ -13,7 +13,7 @@ import {
   isVNode
 } from './vnode'
 import { handleError, ErrorCodes } from './errorHandling'
-import { PatchFlags, ShapeFlags, isOn, isModelListener } from '@vue/shared'
+import { PatchFlags, ShapeFlags, isOn, isModelListener } from '@xlboy-v3/shared'
 import { warn } from './warning'
 import { isHmrUpdating } from './hmr'
 import { NormalizedProps } from './componentProps'

@@ -8,7 +8,7 @@ import {
   noopDirectiveTransform,
   NodeTransform,
   DirectiveTransform
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { parserOptions } from './parserOptions'
 import { transformStyle } from './transforms/transformStyle'
 import { transformVHtml } from './transforms/vHtml'
@@ -19,7 +19,7 @@ import { transformShow } from './transforms/vShow'
 import { warnTransitionChildren } from './transforms/warnTransitionChildren'
 import { stringifyStatic } from './transforms/stringifyStatic'
 import { ignoreSideEffectTags } from './transforms/ignoreSideEffectTags'
-import { extend } from '@vue/shared'
+import { extend } from '@xlboy-v3/shared'
 
 export { parserOptions }
 
@@ -69,4 +69,4 @@ export function parse(template: string, options: ParserOptions = {}): RootNode {
 export * from './runtimeHelpers'
 export { transformStyle } from './transforms/transformStyle'
 export { createDOMCompilerError, DOMErrorCodes } from './errors'
-export * from '@vue/compiler-core'
+export * from '@xlboy-v3/compiler-core'

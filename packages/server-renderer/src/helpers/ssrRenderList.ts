@@ -1,5 +1,5 @@
-import { isArray, isString, isObject } from '@vue/shared'
-import { warn } from '@vue/runtime-core'
+import { isArray, isString, isObject } from '@xlboy-v3/shared'
+import { warn } from '@xlboy-v3/runtime-core'
 
 export function ssrRenderList(
   source: unknown,

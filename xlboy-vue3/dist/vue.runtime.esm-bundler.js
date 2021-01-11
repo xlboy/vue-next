@@ -1,6 +1,6 @@
-import { setDevtoolsHook, initCustomFormatter, warn } from '@vue/runtime-dom';
-export * from '@vue/runtime-dom';
-import { getGlobalThis } from '@vue/shared';
+import { setDevtoolsHook, initCustomFormatter, warn } from '@xlboy-v3/runtime-dom';
+export * from '@xlboy-v3/runtime-dom';
+import { getGlobalThis } from '@xlboy-v3/shared';
 
 function initDev() {
     const target = getGlobalThis();

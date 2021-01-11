@@ -9,9 +9,9 @@ import {
   ExpressionNode,
   SimpleExpressionNode,
   isStaticExp
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { V_ON_WITH_MODIFIERS, V_ON_WITH_KEYS } from '../runtimeHelpers'
-import { makeMap, capitalize } from '@vue/shared'
+import { makeMap, capitalize } from '@xlboy-v3/shared'
 
 const isEventOptionModifier = /*#__PURE__*/ makeMap(`passive,once,capture`)
 const isNonKeyModifier = /*#__PURE__*/ makeMap(

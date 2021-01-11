@@ -6,7 +6,7 @@ import {
   ElementTypes,
   VNodeCall
 } from '../src'
-import { isString, PatchFlags, PatchFlagNames, isArray } from '@vue/shared'
+import { isString, PatchFlags, PatchFlagNames, isArray } from '@xlboy-v3/shared'
 
 const leadingBracketRE = /^\[/
 const bracketsRE = /^\[|\]$/g

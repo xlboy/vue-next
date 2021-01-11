@@ -1,4 +1,4 @@
-import { isSpecialBooleanAttr } from '@vue/shared'
+import { isSpecialBooleanAttr } from '@xlboy-v3/shared'
 
 export const xlinkNS = 'http://www.w3.org/1999/xlink'
 

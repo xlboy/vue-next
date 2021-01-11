@@ -1,5 +1,5 @@
 import { withScopeId } from '../../src/helpers/scopeId'
-import { h, render, nodeOps, serializeInner } from '@vue/runtime-test'
+import { h, render, nodeOps, serializeInner } from '@xlboy-v3/runtime-test'
 
 describe('scopeId runtime support', () => {
   const withParentId = withScopeId('parent')

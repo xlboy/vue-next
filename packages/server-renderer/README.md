@@ -2,7 +2,7 @@
 
 ``` js
 const { createSSRApp } = require('vue')
-const { renderToString } = require('@vue/server-renderer')
+const { renderToString } = require('@xlboy-v3/server-renderer')
 
 const app = createSSRApp({
   data: () => ({ msg: 'hello' }),

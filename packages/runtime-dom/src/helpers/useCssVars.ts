@@ -6,8 +6,8 @@ import {
   Fragment,
   onUpdated,
   watchEffect
-} from '@vue/runtime-core'
-import { ShapeFlags } from '@vue/shared'
+} from '@xlboy-v3/runtime-core'
+import { ShapeFlags } from '@xlboy-v3/shared'
 
 /**
  * Runtime helper for SFC's CSS variable injection feature.

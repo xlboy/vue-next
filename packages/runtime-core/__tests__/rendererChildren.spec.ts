@@ -7,7 +7,7 @@ import {
   TestElement,
   serialize,
   serializeInner
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 function toSpan(content: any) {
   if (typeof content === 'string') {
     return h('span', content.toString())

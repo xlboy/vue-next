@@ -1,5 +1,5 @@
 import { TrackOpTypes, TriggerOpTypes } from './operations'
-import { EMPTY_OBJ, isArray, isIntegerKey, isMap } from '@vue/shared'
+import { EMPTY_OBJ, isArray, isIntegerKey, isMap } from '@xlboy-v3/shared'
 
 // The main WeakMap that stores {target -> key -> dep} connections.
 // Conceptually, it's easier to think of a dependency as a Dep class

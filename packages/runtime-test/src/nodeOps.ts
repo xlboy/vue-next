@@ -1,4 +1,4 @@
-import { markRaw } from '@vue/reactivity'
+import { markRaw } from '@xlboy-v3/reactivity'
 
 export const enum NodeTypes {
   TEXT = 'text',

@@ -8,7 +8,7 @@ import {
   InterpolationNode,
   AttributeNode,
   ConstantTypes
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { parserOptions, DOMNamespaces } from '../src/parserOptions'
 
 describe('DOM parser', () => {

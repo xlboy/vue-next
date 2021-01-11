@@ -1,4 +1,4 @@
-import { render, h } from '@vue/runtime-dom'
+import { render, h } from '@xlboy-v3/runtime-dom'
 
 describe('customized built-in elements support', () => {
   let createElement: jest.SpyInstance

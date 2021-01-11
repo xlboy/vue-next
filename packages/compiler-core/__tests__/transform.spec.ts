@@ -20,7 +20,7 @@ import { transformElement } from '../src/transforms/transformElement'
 import { transformSlotOutlet } from '../src/transforms/transformSlotOutlet'
 import { transformText } from '../src/transforms/transformText'
 import { genFlagText } from './testUtils'
-import { PatchFlags } from '@vue/shared'
+import { PatchFlags } from '@xlboy-v3/shared'
 
 describe('compiler: transform', () => {
   test('context state', () => {

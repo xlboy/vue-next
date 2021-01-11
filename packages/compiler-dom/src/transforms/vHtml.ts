@@ -2,7 +2,7 @@ import {
   DirectiveTransform,
   createObjectProperty,
   createSimpleExpression
-} from '@vue/compiler-core'
+} from '@xlboy-v3/compiler-core'
 import { createDOMCompilerError, DOMErrorCodes } from '../errors'
 
 export const transformVHtml: DirectiveTransform = (dir, node, context) => {

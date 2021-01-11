@@ -8,13 +8,13 @@ import {
   HydrationRenderer,
   App,
   RootHydrateFunction
-} from '@vue/runtime-core'
+} from '@xlboy-v3/runtime-core'
 import { nodeOps } from './nodeOps'
 import { patchProp, forcePatchProp } from './patchProp'
 // Importing from the compiler, will be tree-shaken in prod
-import { isFunction, isString, isHTMLTag, isSVGTag, extend } from '@vue/shared'
+import { isFunction, isString, isHTMLTag, isSVGTag, extend } from '@xlboy-v3/shared'
 
-declare module '@vue/reactivity' {
+declare module '@xlboy-v3/reactivity' {
   export interface RefUnwrapBailTypes {
     // Note: if updating this, also update `types/refBail.d.ts`.
     runtimeDOMBailTypes: Node | Window
@@ -153,4 +153,4 @@ export { vShow } from './directives/vShow'
 
 // re-export everything from core
 // h, Component, reactivity API, nextTick, flags & types
-export * from '@vue/runtime-core'
+export * from '@xlboy-v3/runtime-core'

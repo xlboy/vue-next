@@ -8,7 +8,7 @@ import {
   Fragment,
   createCommentVNode
 } from '../../src'
-import { PatchFlags } from '@vue/shared/src'
+import { PatchFlags } from '@xlboy-v3/shared/src'
 
 describe('renderSlot', () => {
   it('should render slot', () => {

@@ -4,7 +4,7 @@ import {
   ssrRenderStyle,
   ssrRenderAttr
 } from '../src/helpers/ssrRenderAttrs'
-import { escapeHtml } from '@vue/shared'
+import { escapeHtml } from '@xlboy-v3/shared'
 
 describe('ssr: renderAttrs', () => {
   test('ignore reserved props', () => {

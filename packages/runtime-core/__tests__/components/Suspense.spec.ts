@@ -13,7 +13,7 @@ import {
   onUnmounted,
   onErrorCaptured,
   shallowRef
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { createApp } from 'vue'
 
 describe('Suspense', () => {

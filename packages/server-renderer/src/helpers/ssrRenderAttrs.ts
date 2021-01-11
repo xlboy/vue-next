@@ -1,4 +1,4 @@
-import { escapeHtml, stringifyStyle } from '@vue/shared'
+import { escapeHtml, stringifyStyle } from '@xlboy-v3/shared'
 import {
   normalizeClass,
   normalizeStyle,
@@ -8,7 +8,7 @@ import {
   isSSRSafeAttrName,
   isBooleanAttr,
   makeMap
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 
 // leading comma for empty string ""
 const shouldIgnoreProp = makeMap(`,key,ref,innerHTML,textContent`)

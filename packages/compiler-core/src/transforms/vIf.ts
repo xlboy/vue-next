@@ -34,7 +34,7 @@ import {
   OPEN_BLOCK
 } from '../runtimeHelpers'
 import { injectProp, findDir, findProp } from '../utils'
-import { PatchFlags, PatchFlagNames } from '@vue/shared'
+import { PatchFlags, PatchFlagNames } from '@xlboy-v3/shared'
 
 export const transformIf = createStructuralDirectiveTransform(
   /^(if|else|else-if)$/,

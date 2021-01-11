@@ -18,7 +18,7 @@ import {
   NOOP,
   hasOwn,
   isPromise
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import { computed } from './apiComputed'
 import { watch, WatchOptions, WatchCallback } from './apiWatch'
 import { provide, inject } from './apiInject'
@@ -44,7 +44,7 @@ import {
   toRaw,
   proxyRefs,
   toRef
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import {
   ComponentObjectPropsOptions,
   ExtractPropTypes,
@@ -66,7 +66,7 @@ import { UnionToIntersection } from './helpers/typeUtils'
  *
  * @example
  * ```ts
- * declare module '@vue/runtime-core' {
+ * declare module '@xlboy-v3/runtime-core' {
  *   interface ComponentCustomOptions {
  *     beforeRouteUpdate?(
  *       to: Route,

@@ -1,4 +1,4 @@
-import { isObject, toRawType, def } from '@vue/shared'
+import { isObject, toRawType, def } from '@xlboy-v3/shared'
 import {
   mutableHandlers,
   readonlyHandlers,

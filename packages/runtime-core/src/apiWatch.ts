@@ -6,7 +6,7 @@ import {
   ComputedRef,
   ReactiveEffectOptions,
   isReactive
-} from '@vue/reactivity'
+} from '@xlboy-v3/reactivity'
 import { SchedulerJob, queuePreFlushCb } from './scheduler'
 import {
   EMPTY_OBJ,
@@ -19,7 +19,7 @@ import {
   remove,
   isMap,
   isSet
-} from '@vue/shared'
+} from '@xlboy-v3/shared'
 import {
   currentInstance,
   ComponentInternalInstance,

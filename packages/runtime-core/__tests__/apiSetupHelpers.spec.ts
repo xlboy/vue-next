@@ -4,7 +4,7 @@ import {
   nodeOps,
   render,
   SetupContext
-} from '@vue/runtime-test'
+} from '@xlboy-v3/runtime-test'
 import { defineEmit, defineProps, useContext } from '../src/apiSetupHelpers'
 
 describe('SFC <script setup> helpers', () => {
